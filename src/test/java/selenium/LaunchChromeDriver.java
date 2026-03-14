@@ -32,7 +32,12 @@ public class LaunchChromeDriver {
     @Test(priority = 2)
     public void testSearchBoxPresent() {
         boolean present = driver.findElements(By.name("q")).size() > 0;
+        System.out.println("its a demo of selenium framework integration in GITHUB");
         Assert.assertTrue(present, "Search box should be present on Google home page");
+        System.out.println("its a demo of selenium framework integration in GITHUB");
+     // Git test commits
+        
+        
     }
 
     @Test(priority = 3)
