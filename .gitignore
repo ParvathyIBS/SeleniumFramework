@@ -1,1 +1,17 @@
-/target/
+# Maven build folder
+target/
+
+# compiled java files
+*.class
+
+# test reports
+test-output/
+
+# logs
+logs/
+
+# eclipse files
+.metadata/
+
+# mac files
+.DS_Store
