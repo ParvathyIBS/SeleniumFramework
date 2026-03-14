@@ -1,0 +1,7 @@
+<suite name="SeleniumMavenSuite">
+    <test name="LaunchChromeDriverTests">
+        <classes>
+            <class name="selenium.LaunchChromeDriver"/>
+        </classes>
+    </test>
+</suite>
