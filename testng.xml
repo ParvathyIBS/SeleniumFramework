@@ -1,7 +1,13 @@
 <suite name="SeleniumMavenSuite">
-    <test name="LaunchChromeDriverTests">
+    <test name="LoginTestsSalesforce">
         <classes>
-            <class name="selenium.LaunchChromeDriver"/>
+            <class name="tests.SalesforceLoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="LoginTests">
+        <classes>
+            <class name="tests.LoginTest"/>
         </classes>
     </test>
 </suite>
